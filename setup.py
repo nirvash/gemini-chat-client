@@ -9,5 +9,13 @@ setup(
         "google-generativeai",
         "streamlit",
         "python-dotenv",
+        "mcp",  # Model Context Protocol SDK
+        "docker",  # MCPのDockerサポート用
     ],
+    extras_require={
+        "dev": [
+            "black",
+            "pytest",
+        ]
+    }
 )
