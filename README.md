@@ -12,8 +12,8 @@ Streamlit UIとGoogle ADK（Agent Development Kit）を使用して実装され�
 
 1. リポジトリのクローン
 ```bash
-git clone <repository-url>
-cd a2a-client
+git clone https://github.com/nirvash/gemini-chat-client.git
+cd gemini-chat-client
 ```
 
 2. Python 仮想環境の作成と有効化
@@ -76,7 +76,7 @@ streamlit run ui/app.py
 ## プロジェクト構造
 
 ```
-a2a-client/
+gemini-chat-client/
 ├── agents/
 │   ├── __init__.py
 │   └── chat_agent/
@@ -114,7 +114,7 @@ deactivate
 
 ## ライセンス
 
-[ライセンス情報をここに記載]
+MIT License
 
 ## 注意事項
 
